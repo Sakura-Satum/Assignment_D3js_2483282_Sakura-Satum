@@ -1,0 +1,65 @@
+body {
+  background-color: rgb(3, 3, 66);
+}
+
+.land {
+  fill: rgb(6, 91, 97);
+  stroke: black;
+}
+
+.cities {
+  fill: rgb(103, 220, 165);
+  opacity: 0.5;
+}
+
+.cityname {
+  fill: rgb(157, 209, 255);
+}
+
+.cityximg{
+  stroke-width :1px;
+  background-repeat:no-repeat ;
+  width: 25px;
+}
+
+.citymimg{
+  stroke-width :1px;
+  background-repeat:no-repeat ;
+  width: 15px;
+}
+
+
+.tooltips {
+  position: absolute;
+  z-index: 1080;
+  background-color: rgb(250, 245, 245);
+  color: rgb(5, 92, 73)
+}
+
+.container {
+  width: 80vh;
+  position: absolute;
+  top: 50%;
+  left: 50%
+}
+
+.image{
+  width: 80vh;
+  position: absolute;
+  top: 35%;
+  left: 50%
+
+}
+
+.refresh {
+  width: 80vh;
+  position: absolute;
+  top: 65%;
+  left: 55%
+}
+
+input[type="range"] {
+  width: 40%;
+  height: 5px;
+
+}
